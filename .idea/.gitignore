@@ -1,13 +1,46 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-
 *.jar
-*.iml
+
+#Gradle Files
 .gradle
+build/
+
+#Local Config Files (sdk path, etc)
 /local.properties
+
+#Log/OS Files
+*.log
+
+#Android Studio generated files and folders
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+#IntelliJ
+*.iml
+.idea/
 /.idea/workspace.xml
 /.idea/libraries
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+#Keystore files
 .DS_Store
-/build
-/captures
+*.jks
+*.keystore
+
+#Google Services (eg. APIs or Firebase)
+google-services.json
+
+#Android Profiling
+*.hprof
+
+#Android Patch
+gen-external-apklibs
+
+
